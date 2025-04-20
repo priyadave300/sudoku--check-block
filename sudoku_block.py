@@ -1,4 +1,3 @@
-# Write your solution here
 #here we use 2 for loops and we transverse using range from row_no to row_no+3 and col_no to col+3 
 #since we need 3*3 matrix and then we access sudoku[i][j] and check condition if >0 then check if that
 #element in list and then return True and False
@@ -13,9 +12,7 @@ def block_correct(sudoku: list, row_no: int, column_no: int):
                 else:
                     return False
     return True
-        
-    
-    
+
 if __name__ == "__main__":
     sudoku = [
     [9, 0, 0, 0, 8, 0, 3, 0, 0],
